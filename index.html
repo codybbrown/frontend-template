@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:ital,wght@0,300;0,900;1,300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+            font-family: "Merryweather", sans-serif;
+            /* font-family: 'Merriweather', serif; */
+            font-family: 'Merriweather Sans', sans-serif;
+            background-color: #d5d7da;
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+        }
+        img {
+            padding: 10px;
+            max-width: 100%;
+            background-color: #dadde0;
+            border-left: 1px solid #c2c4c7;
+            border-right: 1px solid #c2c4c7;
+        }
+        header {
+            width: 98%;
+        }
+        #logo {
+            max-width: 120px;
+            margin: 3% 0 3% 3%;
+            float: left; 
+        }
+        #logo-img {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #wrapper {
+            background-color: whitesmoke;
+        }
+        #social {
+            float: right;
+            margin: 3% 2% 4% 3%;
+            list-style-type: none;
+        }
+        #social > li {
+            display: inline;
+        }
+        #social > li > a > img {
+            border: none;
+            background-color: whitesmoke;
+            max-width: 35px;
+            padding-right: 10px;
+        }
+        h1 {
+            background-color: #303840;
+            color: #f6faff;
+            text-decoration: none;
+            font-style: italic;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 5px;
+            letter-spacing: 2px;    
+        }
+        h1,
+        p {
+            margin: 3%;
+        }
+        .btn {
+            float: right;
+            margin: 0 2% 4% 0;
+            background-color: #303840;
+            color: #f6faff;
+            text-decoration: none;
+            font-style: italic;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .btn:hover {
+            float: right;
+            margin: 0 2% 4% 0;
+            background-color: #606569;
+            color: #f6faff;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        hr {
+            height: 1px;
+            background-color: #303840;
+            clear: both;
+            width: 96%;
+            margin: auto;
+        }
+        #contact {
+            text-align: center;
+            padding-bottom: 3%;
+            line-height: 19px;
+            font-size: 14px;
+            color: #303840;
+        }
+  
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <img id="logo-img" src="img/logo.png" alt="Cosmic Egg Logo" width="100" height="100" />
+            </div>
+            <div>
+                <ul id="social">
+                    <li>
+                        <a href="#"><img src="img/facebook.png" alt="Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                    <li>
+                        <a href="#"><img src="img/twitter.png" alt="Linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
+            <img src="img/banner.svg" alt="" />
+        </div>
+        <div class="one-col">
+            <h1>HTML Template Example</h1>
+
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam animi culpa in sunt accusamus ad corporis, delectus optio accusantium dolores exercitationem vitae eius at, architecto quod ratione nihil ducimus harum.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio pariatur repellat animi provident doloribus nulla labore corporis non facere, eaque expedita nesciunt incidunt vero ipsam nisi reiciendis sit nam vitae voluptate, exercitationem ex deleniti porro esse. Repellendus, corrupti! Sapiente?</p>
+           
+           <a href="#" class="btn">Learn More</a>
+
+           <hr />
+
+           <footer>
+               <p id="contact">
+                   Bright Infinite Group<br />
+                   99999 BIG St.<br />
+                   Town, IL<br />
+                   big.big@big.biz
+               </p>
+           </footer>
+            
+        </div>
+    </div>
+</body>
+</html>
